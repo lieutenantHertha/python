@@ -1,0 +1,7 @@
+# Default ignored directories and files
+.vscode/
+__pycache__/
+work_stack/
+work_stack1/
+*.csv
+*.pyc
