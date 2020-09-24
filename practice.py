@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import collections
 import random
 
@@ -29,4 +30,11 @@ poker_set = [random.choice(deck_in_order) for index in range(3)]
 
 for single_card in poker_set:
     print('RANK {}\tSUIT {}'.format(single_card.rank, single_card.suit.upper()))
+=======
+import requests
+
+response = requests.get('https://www.nytimes.com/2020/09/20/us/coronavirus-us-update.html')
+print(response)
+
+>>>>>>> cb4c63742c6709afd4ab1a0503d9f4c60aa308ba
 
