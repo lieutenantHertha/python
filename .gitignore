@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+# Default ignored directories and files
+.vscode/
+__pycache__/
+work_stack/
+work_stack1/
+*.csv
+=======
+# Default ignored files
+.idea/
+__pycache__/
+>>>>>>> cb4c63742c6709afd4ab1a0503d9f4c60aa308ba
+*.pyc
