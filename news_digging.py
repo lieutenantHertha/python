@@ -5,15 +5,18 @@ import os
 
 article_params = {
     'q':
-    'President Election',
+    'Hunter Biden',
     'from':
-    '2020-10-16',
+    '2020-10-20',
     'sortBy':
     'popularity',
     'apiKey':
     str(os.environ.get('NEWS_API_KEY')),
     'sources':
-    'abc-news, bbc-news, bloomberg, cbs-news, cnn, fox-news, mashable, new-york-magazine'
+    '''abc-news, bbc-news, bloomberg, business-insider, 
+       cbs-news, cnn, fox-news, google-news, politico, 
+       reddit-r-all, mashable, new-york-magazine, 
+       the-wall-street-journal, the-washington-post, time'''
 }
 
 res_string = requests.get('http://newsapi.org/v2/everything',
