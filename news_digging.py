@@ -7,7 +7,7 @@ article_params = {
     'q':
     'Hunter Biden',
     'from':
-    '2020-10-20',
+    '2020-10-21',
     'sortBy':
     'popularity',
     'apiKey':
